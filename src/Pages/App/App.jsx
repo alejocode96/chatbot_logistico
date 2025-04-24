@@ -2,17 +2,30 @@
 import { useState } from 'react'
 import React from 'react'
 
+//Rutas
+import { useRoutes, BrowserRouter } from 'react-router-dom';
 
-//componentes
-import Main from '../../Components/App'
+//pages
+import Home from '../Home'
+
 //contexto
 import { LogisticoProvider } from '../../context';
 
-function App() {
+const AppRoutes = () => {
+  let routes = useRoutes([
+    { path: '/', element: <Home /> },
+  ])
+  return routes
+}
+
+const App = () => {
   return (
     <LogisticoProvider>
-      <Main></Main>
+      <BrowserRouter>
+        <AppRoutes></AppRoutes>
+      </BrowserRouter>
     </LogisticoProvider>
+
 
   )
 }
