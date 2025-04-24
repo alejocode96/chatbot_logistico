@@ -45,7 +45,7 @@ function Main() {
       </header>
 
       {/* fondo */}
-      <div className='absolute inset-0 -z-10 h-full bg-[image:radial-gradient(80%_50%_at_50%_-20%,rgba(196,214,0,0.5),rgba(255,255,255,0))]'></div>
+      <div className='absolute inset-0 -z-10 h-[990px]  bg-[image:radial-gradient(80%_50%_at_50%_-20%,rgba(196,214,0,0.5),rgba(255,255,255,0))]'></div>
       <svg className="absolute inset-0 -z-10 h-full w-full stroke-white/5 [mask-image:radial-gradient(75%_50%_at_top_center,white,transparent)]" aria-hidden="true">
         <defs>
           <pattern id="hero" width="80" height="80" x="50%" y="-1" patternUnits="userSpaceOnUse">

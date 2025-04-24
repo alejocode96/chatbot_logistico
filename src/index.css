@@ -5,6 +5,11 @@ body{
     overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 @keyframes starlight-left {
     0% {
         transform: translate(100%)

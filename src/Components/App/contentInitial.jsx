@@ -40,7 +40,7 @@ function ContentInitial() {
                 </div>
 
                 <div className='group mt-6 lg:mt-38 mb-16'>
-                    <a className='flex flex-col items-center gap-1' href=''>
+                    <a className='flex flex-col items-center gap-1' href='#Section_WhoIsLogistico'>
                         <p className='text-sm/6 text-zinc-400 duration-300 group-hover:text-zinc-100'>Obtener más información</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-down text-zinc-400 duration-300 group-hover:translate-y-1.5 group-hover:text-zinc-100">
                             <path d="M12 5v14" />
