@@ -5,7 +5,7 @@ import React from 'react'
 //Componentes
 import ContentInitial from '../../Components/App/contentInitial'
 import WhoIsLogistico from '../../Components/App/whoIsLogistico'
-
+import ToDoLogistico from '../../Components/App/toDoLogistico'
 //Estilos
 import './App.css'
 
@@ -62,6 +62,9 @@ function App() {
 
         {/*Quien es logistico*/}
         <WhoIsLogistico></WhoIsLogistico>
+
+         {/* que hacer con  logistico */}
+         <ToDoLogistico></ToDoLogistico>
       </main>
     </>
   )
