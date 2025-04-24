@@ -4,6 +4,7 @@ import React from 'react'
 
 //Componentes
 import ContentInitial from '../../Components/App/contentInitial'
+import WhoIsLogistico from '../../Components/App/whoIsLogistico'
 
 //Estilos
 import './App.css'
@@ -55,10 +56,12 @@ function App() {
       </svg>
 
       {/* Contenido */}
-      <main className='w-[90%] mx-auto relative flex justify-center pt-24 lg:pt-48'>
+      <main className='w-[90%] mx-auto relative  justify-center pt-24 lg:pt-48'>
         {/* Contenido inicial */}
         <ContentInitial></ContentInitial>
 
+        {/*Quien es logistico*/}
+        <WhoIsLogistico></WhoIsLogistico>
       </main>
     </>
   )

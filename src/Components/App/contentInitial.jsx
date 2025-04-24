@@ -4,7 +4,7 @@ import React from 'react'
 
 function ContentInitial() {
     return (
-        <section className=''>
+        <section className='bg-'>
             {/* contenido */}
             <div className='w-full'>
                 <div className='lg:flex items-center justify-between'>
