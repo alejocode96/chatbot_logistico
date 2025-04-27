@@ -7,13 +7,15 @@ import { useRoutes, BrowserRouter } from 'react-router-dom';
 
 //pages
 import Home from '../Home'
-
+import Login from '../Login';
 //contexto
 import { LogisticoProvider } from '../../context';
 
 const AppRoutes = () => {
   let routes = useRoutes([
     { path: '/', element: <Home /> },
+    { path: '/login', element: <Login /> },
+    // { path: '/*', element: <NotFound /> },
   ])
   return routes
 }

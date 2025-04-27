@@ -21,6 +21,9 @@ function LogisticoProvider({ children }) {
   // Índice de caracter actual (cuántas letras mostrar o borrar)
   const [charIndex, setCharIndex] = useState(0);
 
+  //Mostrar contraseña
+  const [showPassword, setShowPassword] = useState(false);
+
   useEffect(() => {
     // Pregunta actual basada en el índice
     const currentQuestion = questions[questionIndex];
@@ -60,7 +63,9 @@ function LogisticoProvider({ children }) {
       currentText, setCurrentText,
       questionIndex, setQuestionIndex,
       isDeleting, setIsDeleting,
-      charIndex, setCharIndex
+      charIndex, setCharIndex,
+
+      showPassword, setShowPassword
     }}>
       {children}
     </LogisticoContext.Provider>

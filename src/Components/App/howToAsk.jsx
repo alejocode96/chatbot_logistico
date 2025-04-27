@@ -4,6 +4,9 @@ import React from 'react'
 //contexto
 import { LogisticoContext } from '../../context';
 
+//navegacion
+import { NavLink } from 'react-router-dom'
+
 function HowToAsk() {
 
     //preguntas dinamicas
@@ -212,9 +215,12 @@ function HowToAsk() {
                                         <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(196,214,0,0.6)_0%,rgba(196,214,0,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                                         </span>
                                     </span>
-                                    <div className="relative z-10 rounded-full bg-zinc-950 px-4 py-1.5 ring-1 ring-white/10">
-                                        Inicia sesión ahora
-                                    </div>
+                                    <NavLink to='/login'>
+                                        <div className="relative z-10 rounded-full bg-zinc-950 px-4 py-1.5 ring-1 ring-white/10">
+                                            Inicia sesión ahora
+                                        </div>
+                                    </NavLink>
+
                                     <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-[#C4D600]/0 via-[#C4D600]/90 to-[#C4D600]/0 transition-opacity duration-500 group-hover:opacity-40">
                                     </span>
                                 </button>
