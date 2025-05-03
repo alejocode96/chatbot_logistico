@@ -6,7 +6,7 @@ function ToDoLogistico() {
     return (
         <section className='pt-16 pb-16'>
             {/* titulo */}
-            <div className='lg:flex items-center justify-between'>
+            <div className='lg:flex items-center justify-between' data-aos="fade-up">
                 <div className='flex lg:flex-1 w-[100%] lg:w-[90%]'>
                     <div className='font-bold text-4xl/[1.07] md:text-5xl/[1.07] tracking-tight'>
                         <span className='pr-4 bg-clip-text bg-gradient-to-br from-white to-zinc-500 text-transparent'>
@@ -21,7 +21,7 @@ function ToDoLogistico() {
             {/* cards */}
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-8 gap-y-0'>
                 {/* card 1 */}
-                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14'>
+                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14' data-aos="fade-up">
                     <div className='relative flex justify-center items-center mb-4 w-full h-full overflow-hidden [mask:linear-gradient(black_70%,transparent)]'>
                         {/* image */}
                         <div className='top-6 md:top-8 sm:right-6 md:right-8 absolute bg-zinc-900 
@@ -129,7 +129,7 @@ function ToDoLogistico() {
                 </div>
 
                 {/* card 2 */}
-                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14'>
+                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14' data-aos="fade-up">
                     <div className='relative flex justify-center items-center mb-4 w-full h-full overflow-hidden [mask:linear-gradient(black_70%,transparent)]'>
                         {/* image */}
                         <div className="top-6 md:top-8 sm:right-6 md:right-8 absolute bg-zinc-900 rounded-lg ring-1 ring-zinc-100/10 w-[230px] h-[300px]">
@@ -275,7 +275,7 @@ function ToDoLogistico() {
                 </div>
 
                 {/* card 3 */}
-                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14'>
+                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14' data-aos="fade-up">
                     <div className='relative flex justify-center items-center mb-4 w-full h-full overflow-hidden [mask:linear-gradient(black_70%,transparent)]'>
                         {/* grafica */}
                         <div className="top-6 md:top-8 sm:right-6 md:right-8 absolute bg-zinc-900 rounded-lg ring-1 ring-zinc-100/10 w-[230px] h-[200px]">
@@ -470,7 +470,7 @@ function ToDoLogistico() {
                 </div>
 
                 {/* card 4 */}
-                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14'>
+                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14' data-aos="fade-up">
                     <div className='relative flex justify-center items-center mb-4 w-full h-full overflow-hidden [mask:linear-gradient(black_70%,transparent)]'>
                         {/* grafica */}
                         <div className="top-6 md:top-8 sm:right-6 md:right-8 absolute bg-zinc-900 rounded-lg ring-1 ring-zinc-100/10 w-[230px] h-[200px]">
@@ -577,7 +577,7 @@ function ToDoLogistico() {
                 </div>
 
                 {/* card 5 */}
-                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14'>
+                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14' data-aos="fade-up">
                     <div className='relative flex justify-center items-center mb-4 w-full h-full overflow-hidden [mask:linear-gradient(black_70%,transparent)]'>
                         {/* grafica */}
                         <div className="top-6 md:top-8 sm:right-6 md:right-8 absolute bg-zinc-900 rounded-lg ring-1 ring-zinc-100/10 w-[230px] h-[200px]">
@@ -727,7 +727,7 @@ function ToDoLogistico() {
                 </div>
 
                 {/* card 6 */}
-                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14'>
+                <div className='flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-[370px] overflow-hidden mt-14' data-aos="fade-up">
                     <div className='relative flex justify-center items-center mb-4 w-full h-full overflow-hidden [mask:linear-gradient(black_70%,transparent)]'>
                         {/* grafica */}
                         <div className="top-6 md:top-8 sm:right-6 md:right-8 absolute bg-zinc-900 rounded-lg ring-1 ring-zinc-100/10 w-[230px] h-[200px]">

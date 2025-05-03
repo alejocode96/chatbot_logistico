@@ -19,7 +19,7 @@ function HowToAsk() {
 
             <section className='pt-16 pb-16'>
                 {/* titulo */}
-                <div className='lg:flex items-center justify-between'>
+                <div className='lg:flex items-center justify-between' data-aos="fade-up">
                     <div className='flex lg:flex-1 w-full lg:w-1/2'>
                         <div className="font-bold text-5xl/[1.07] md:text-7xl/[1.07] tracking-tight">
                             <span className="pr-4 bg-clip-text bg-gradient-to-br from-white to-zinc-500 text-transparent">
@@ -43,7 +43,7 @@ function HowToAsk() {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-8 lg:pt-14'>
 
                     {/* card 1 */}
-                    <div className='relative flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-full overflow-hidden mt-14'>
+                    <div className='relative flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-full overflow-hidden mt-14' data-aos="fade-up">
                         <div className="space-y-4 mt-auto px-8 pb-8 w-full">
                             <h3 className="font-medium text-lg/none text-zinc-200 mb-1 pb-1 uppercase">Usa las palabras claves correctas</h3>
                             <hr className='w-[85%] text-zinc-400/10'></hr>
@@ -55,7 +55,7 @@ function HowToAsk() {
                     </div>
 
                     {/* card 2 */}
-                    <div className='relative flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-full overflow-hidden mt-14 lg:mt-1'>
+                    <div className='relative flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-full overflow-hidden mt-14 lg:mt-1' data-aos="fade-up">
                         <div className="absolute  right-6 h-2 w-20 [mask-image:linear-gradient(to_right,rgba(217,217,217,0)_0%,#d9d9d9_25%,#d9d9d9_75%,rgba(217,217,217,0)_100%)] md:w-32 lg:w-64">
                             <div className="h-px w-full animate-starlight-right  bg-gradient-to-r from-[#C4D600]/0 via-[#00A3E0] to-[#00A3E0]/0">
                             </div>
@@ -77,7 +77,7 @@ function HowToAsk() {
                     </div>
 
                     {/* card 3 */}
-                    <div className='relative flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-full  overflow-hidden mt-14'>
+                    <div className='relative flex flex-col order-1 bg-zinc-900/50 rounded-2xl ring-1 ring-zinc-100/10 h-full  overflow-hidden mt-14' data-aos="fade-up">
 
                         <div className="space-y-4 mt-auto px-8 pb-8 w-full">
                             <h3 className="font-medium text-lg/none text-zinc-200 mb-1 pb-1 uppercase">Evita hacer preguntas generales o ambiguas</h3>
@@ -95,7 +95,7 @@ function HowToAsk() {
 
                     </div>
                 </div>
-                <div className="mt-20 col-span-full flex h-[580px] lg:h-[500px] flex-col overflow-hidden rounded-2xl bg-zinc-900/50 ring-1 ring-zinc-100/10 lg:col-span-1">
+                <div className="mt-20 col-span-full flex h-[580px] lg:h-[500px] flex-col overflow-hidden rounded-2xl bg-zinc-900/50 ring-1 ring-zinc-100/10 lg:col-span-1" data-aos="fade-up">
                     <div className="absolute  right-6 h-2 w-20 [mask-image:linear-gradient(to_right,rgba(217,217,217,0)_0%,#d9d9d9_25%,#d9d9d9_75%,rgba(217,217,217,0)_100%)] md:w-32 lg:w-64">
                         <div className="h-px w-full animate-starlight-right  bg-gradient-to-r from-[#C4D600]/0 via-[#C4D600] to-[#C4D600]/0">
                         </div>
@@ -169,8 +169,8 @@ function HowToAsk() {
                             &bull; "¿Cuál es el vehículo con el tiempo de permanencia mas alto entre el 01/02/2025 y el 07/02/2025 y en qué región fue ?"
                         </p>
                     </div>
-                    <div className="absolute bottom-[518px] left-6 h-2 w-20 [mask-image:linear-gradient(to_right,rgba(217,217,217,0)_0%,#d9d9d9_25%,#d9d9d9_75%,rgba(217,217,217,0)_100%)] md:w-32 lg:w-64">
-                        <div className="h-px w-full  animate-starlight-left  bg-gradient-to-r from-[#C4D600]/0 via-[#C4D600] to-[#C4D600]/0">
+                    <div className="absolute bottom-[-5.87px] lg:bottom-[-5.96px] left-20 h-2 w-20 [mask-image:linear-gradient(to_right,rgba(217,217,217,0)_0%,#d9d9d9_25%,#d9d9d9_75%,rgba(217,217,217,0)_100%)] md:w-32 lg:w-64">
+                        <div className="h-px w-full animate-starlight-left bg-gradient-to-r from-[#C4D600]/0 via-[#C4D600] to-[#C4D600]/0">
                         </div>
                     </div>
                 </div>
@@ -178,7 +178,7 @@ function HowToAsk() {
 
             </section >
             <div className='pt-6'>
-                <div className="relative mx-auto mt-16 max-w-full p-6 pb-12 pt-20 lg:px-8">
+                <div className="relative mx-auto mt-16 max-w-full p-6 pb-12 pt-20 lg:px-8"  data-aos="fade-up">
                     {/* Línea superior fina */}
                     <div aria-hidden="true" className="user-select-none center pointer-events-none absolute -top-0.5 left-1/2 h-px w-4/5 max-w-[500px] -translate-x-1/2 -translate-y-1/2 transform-gpu [background:linear-gradient(90deg,rgba(0,0,0,0)_0%,rgba(196,214,0,0.65)_50%,rgba(0,0,0,0)_100%)]"></div>
                     {/* Fondo decorativo */}

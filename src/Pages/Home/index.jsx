@@ -8,20 +8,24 @@ import WhoIsLogistico from '../../Components/App/whoIsLogistico'
 import ToDoLogistico from '../../Components/App/toDoLogistico'
 import HowToAsk from '../../Components/App/howToAsk'
 
+//animacion
+import { useAos } from '../../hooks/useAos'
+
 //navegacion
 import { NavLink } from 'react-router-dom'
 
 function Home() {
+  useAos({ duration: 1500, once: false });
   return (
     <>
 
       {/* Header */}
-      <header className='absolute inset-x-0 top-0 z-10 w-full'>
+      <header className='absolute inset-x-0 top-0 z-10 w-full' data-aos="fade-up">
         <div className='w-[90%] max-w-[90%] mx-auto relative flex justify-center'>
           <nav className='flex min-h-[5rem] w-full items-center justify-between'>
             <div className='flex lg:flex-1'>
               <a className='flex items-center'>
-                <img src='../public/Logo.png' className='w-10 mr-4'></img>
+                <img src='../public/Logo.png' className='w-10 mr-4 slow-spin'></img>
                 <span className='text-white text-2xl font-extralight'>LOGISTICO</span>
               </a>
             </div>
@@ -48,7 +52,7 @@ function Home() {
       </header>
 
       {/* fondo */}
-      <div className='absolute inset-0 -z-10 h-[990px]  bg-[image:radial-gradient(80%_50%_at_50%_-20%,rgba(196,214,0,0.5),rgba(255,255,255,0))]'></div>
+      <div className='absolute inset-0 -z-10 h-[1400px]  bg-[image:radial-gradient(80%_50%_at_50%_-20%,rgba(196,214,0,0.5),rgba(255,255,255,0))]'></div>
       <svg className="absolute inset-0 -z-10 h-full w-full stroke-white/5 [mask-image:radial-gradient(75%_50%_at_top_center,white,transparent)]" aria-hidden="true">
         <defs>
           <pattern id="hero" width="80" height="80" x="50%" y="-1" patternUnits="userSpaceOnUse">
@@ -72,7 +76,7 @@ function Home() {
         {/* como preguntar en  logistico */}
         <HowToAsk></HowToAsk>
       </main>
-      <footer className="isolate mx-auto max-w-7xl p-6 pb-12 pt-16 lg:px-8">
+      <footer className="isolate mx-auto max-w-7xl p-6 pb-12 pt-16 lg:px-8"  data-aos="fade-up">
         <div className="border-t border-white/10 pt-4 md:flex md:items-center md:justify-between">
           <div className="flex justify-center space-x-6 md:order-2">
             <a target="_blank" rel="noopener noreferrer" aria-label="Follow on X (formerly Twitter)" className="group flex h-6 w-6 items-center justify-center text-zinc-400 transition hover:text-zinc-300" href="https://twitter.com/joincobalt">

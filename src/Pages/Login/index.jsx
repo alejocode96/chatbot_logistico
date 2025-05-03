@@ -2,15 +2,18 @@ import React from "react";
 //contexto
 import { LogisticoContext } from '../../context';
 
-const Login = () => {
+//animacion
+import { useAos } from "../../hooks/useAos";
 
-    //preguntas dinamicas
+const Login = () => {
+    useAos({ duration: 1500, once: false });
+    //Mstrar contraseña
     const {
         showPassword, setShowPassword
     } = React.useContext(LogisticoContext);
 
     return (
-        <div className="relative w-full min-h-screen ">
+        <div className="relative w-full min-h-screen " >
             {/* Fondo decorativo con SVG */}
             <div className="absolute inset-0 z-0">
                 {/* SVG patrón de fondo */}
@@ -32,7 +35,7 @@ const Login = () => {
             </div>
 
             {/* Contenedor del Login centrado y encima de todo */}
-            <div className="absolute inset-0 z-40 w-full min-h-screen flex flex-col lg:flex-row items-center justify-center px-6">
+            <div className="absolute inset-0 z-40 w-full min-h-screen flex flex-col lg:flex-row items-center justify-center px-6" data-aos="fade-down">
                 <div id="selectform" className="w-[90%] lg:w-[50%] p-8 h-[500px] lg:h-[550px] bg-[rgba(47,51,51,0.3)] backdrop-blur-md rounded-md shadow-xl flex justify-center order-2 lg:order-1 mb-6 lg:mb-0" >
                     <div className="absolute -top-px right-20 h-2 w-20 [mask-image:linear-gradient(to_right,rgba(217,217,217,0)_0%,#d9d9d9_25%,#d9d9d9_75%,rgba(217,217,217,0)_100%)] md:w-32 lg:w-64">
                         <div className="h-px w-full animate-starlight-right bg-gradient-to-r from-[#C4D600]/0 via-[#C4D600] to-[#C4D600]/0">
@@ -61,8 +64,8 @@ const Login = () => {
                                     </svg>
                                 </div>
                                 <div className="relative">
-                                    <input type={showPassword ? "text" : "password"}  id="password-input" className="bg-[rgba(47,51,51,0.6)] text-gray-500 text-sm rounded-lg block w-full ps-10 p-2.5 focus:outline-none " placeholder="Contraseña" />
-                                    <button type="button" onClick={() => setShowPassword(!showPassword)}  className={`absolute text-gray-400 inset-y-0 end-0 flex items-center z-20 px-3 cursor-pointer  rounded-e-md focus:outline-hidden `}>
+                                    <input type={showPassword ? "text" : "password"} id="password-input" className="bg-[rgba(47,51,51,0.6)] text-gray-500 text-sm rounded-lg block w-full ps-10 p-2.5 focus:outline-none " placeholder="Contraseña" />
+                                    <button type="button" onClick={() => setShowPassword(!showPassword)} className={`absolute text-gray-400 inset-y-0 end-0 flex items-center z-20 px-3 cursor-pointer  rounded-e-md focus:outline-hidden `}>
                                         <svg className={`shrink-0 size-3.5  ${showPassword ? "text-[#C4D600]" : "text-gray-500"}`} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                             <path className="hs-password-active:hidden" d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path>
                                             <path className="hs-password-active:hidden" d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"></path>
@@ -76,7 +79,7 @@ const Login = () => {
                             </div>
                         </div>
                         <div className="mt-10">
-                            <button className="w-full bg-[#E4E4E7] h-10 rounded-md text-gray-800">INICIAR SESIÓN</button>
+                            <button className="w-full bg-[#E4E4E7] h-10 rounded-md text-gray-800 transition-all duration-300 hover:bg-zinc-300 hover:shadow-md hover:translate-y-px hover:text-black">INICIAR SESIÓN</button>
                         </div>
                         <div className="mt-2">
                             <p className="text-center text-gray-500">¿Olvido su contraseña? recupérala <span className="text-[#6CC24A]"><a className="cursor-pointer">aquí</a></span></p>
@@ -88,7 +91,7 @@ const Login = () => {
                     </div>
                 </div>
                 <div id="selectimage" className="w-[90%] lg:w-[50%] h-[200px] lg:h-[600px] rounded-md flex items-center justify-center px-4 order-1 lg:order-2 mb-6 lg:mb-0 pt-18 lg:pt-0">
-                    <img src='../public/Logo.png' className='w-22 md:w-32 lg:w-32 mr-2' alt="Logo" />
+                    <img src='../public/Logo.png' className='w-22 md:w-32 lg:w-32 mr-2 slow-spin' alt="Logo" />
                     <div>
                         <p className='text-justify text-zinc-400 text-2xl lg:text-5xl md:text-4xl/[1.07] font-extralight mb-0'>CHATBOT</p>
                         <p className='bg-gradient-to-br from-white to-zinc-500 bg-clip-text text-5xl/[1.07] md:text-7xl/[1.07] font-bold tracking-tight text-transparent mt-[-0.5rem]'>LOGISTICO</p>

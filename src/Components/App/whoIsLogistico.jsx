@@ -45,7 +45,7 @@ function WhoIsLogistico() {
             <section className='pt-16 pb-16' id='Section_WhoIsLogistico'>
                 {/* contenido */}
                 <div className='w-full'>
-                    <div className='lg:flex items-center justify-between'>
+                    <div className='lg:flex items-center justify-between' data-aos="fade-up">
                         <div className='flex lg:flex-1 w-full lg:w-1/2'>
                             <div>
                                 <p className='text-justify text-zinc-400 text-5xl font-extralight'>CONOCÉ A</p>
@@ -66,7 +66,7 @@ function WhoIsLogistico() {
 
                     </div>
 
-                    <div className='relative pt-18' style={{ transform: 'none' }}>
+                    <div className='relative pt-18' style={{ transform: 'none' }} data-aos="fade-up">
                         <div className='absolute top-[73px] right-20 h-2 w-20 [mask-image:linear-gradient(to_right,rgba(217,217,217,0)_0%,#d9d9d9_25%,#d9d9d9_75%,rgba(217,217,217,0)_100%)] md:w-32 lg:w-64'>
                             <div className='h-px w-full animate-starlight-right bg-gradient-to-r from-[#C4D600]/0 via-[#C4D600] to-[#C4D600]/0'></div>
                         </div>
